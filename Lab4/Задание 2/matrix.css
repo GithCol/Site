@@ -1,0 +1,22 @@
+.matrix {
+    background-color: write;
+    table-layout: fixed;
+}
+
+.matrix-elem td, th {
+    padding: 10px 10px;
+}
+
+.matrix-elem input{
+    text-align: center;
+    background-color: #ddffff;
+    width: 30px;
+    height: 30px;
+}
+
+.sort-button {
+    text-align: center;
+    background-color: #002200;
+border: write;
+color:#ffffff;
+}

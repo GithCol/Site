@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Свойсва</title>
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+    </head>
+    <body bgcolor="#c0c0c0">
+        <table bgcolor="#0000ff">
+            <tr>
+                <td>
+                    <textarea  id = "windowProp" rows="30" cols="45" class = "scroll" readonly></textarea>
+                </td>
+                
+                <td>
+                    <textarea  id = "documentProp" rows="30" cols="45" class = "scroll" readonly></textarea>
+                </td>
+                
+                <td>
+                    <textarea  id = "locationProp" rows="30" cols="45" class = "scroll" readonly></textarea>
+                </td>
+                
+                <td>
+                    <textarea  id = "navigatorProp" rows="30" cols="45" class = "scroll" readonly></textarea>		
+                </td>
+            </tr>
+        </table>
+       <script src="script.js"></script> 
+	<script>
+	fooNavigator();
+	fooWindow();
+	fooDocument();
+	fooLocation();
+	</script>
+    </body>
+</html>

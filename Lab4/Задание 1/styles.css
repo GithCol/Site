@@ -1,0 +1,14 @@
+.scroll {
+    width:350px;
+    height:600px;
+    background: #fff;
+    border: 2px blue red;
+    overflow-y: scroll;
+  }
+
+table {
+    background: blue;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 0 auto;
+  }
