@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <title>Форма</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <h1 align="center">ЗАО Птицефабрика №1</h1>
+
+        <table align="center">
+            <tr>
+                <td align="right"><label>Фамилия</label></td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label>Инициалы</label></td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label>Пароль</label></td>
+                <td><input type="password" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label>Адрес получателя</label></td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label>Количество</label></td>
+                <td><input type="number" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label>Тип</label></td>
+                <td><select name="types">
+                    <option value="Куриные">Куриные</option> 
+                    <option value="Перепелийные">Перепелийные</option> 
+                    <option value="Страусинные">Страусинные</option> 
+                </select>
+
+                <select name="types">
+                    <option value="Отборные">Отборные</option> 
+                    <option value="Нормальные">Нормальные</option> 
+                    <option value="Бракованные">Бракованные</option> 
+                </select></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label>Доставка</label></td>
+                <td><input type="radio" name="delivery" value="Почтой">Почтой<input type="radio" name="delivery" value="Электронно">Электронно<input type="radio" name="delivery" value="Курьером">Курьером</td>
+            </tr>
+
+            <tr>
+                <td align="right"><label>Требуется накладная</label></td>
+                <td><input type="checkbox" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label>Дополнительная информация</label></td>
+                <td><textarea cols="50" rows="3"></textarea></td>
+            </tr>
+
+            <tr>
+                <td align="right"><input type="button" value="Заказать"></td>
+                <td><input type="button" value="Отменить"></td>
+            </tr>
+        </table>
+
+    </body>
+</html>

@@ -1,0 +1,13 @@
+body {
+    background-color: Write;
+}
+
+table {
+    border:  1px solid black;
+    width: 400px;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 20px 20px;
+}
